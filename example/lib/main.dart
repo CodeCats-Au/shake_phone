@@ -39,6 +39,10 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       _platformVersion = platformVersion;
     });
+
+    _shakePhonePlugin.setShakeCallback(() {
+      print('Shake detected!');
+    });
   }
 
   @override
