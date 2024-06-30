@@ -1,5 +1,5 @@
 name: shake_phone
-description: "A new Flutter plugin project."
+description: "A plugin to support shake gesture in mobile and iOS simulator."
 version: 0.0.1
 homepage:
 
